@@ -1,0 +1,4591 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 238,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "c5bb00ff-e31f-4900-af57-23d790bce58f",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "boblox evil robux racing platformer",
+    "description": "idk",
+    "author": "",
+    "windowWidth": 1200,
+    "windowHeight": 800,
+    "latestCompilationDirectory": "C:\\Users\\smo computadores\\Documents\\GDevelop projects\\My project",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "racingicons",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Roblox OST - The Main Theme.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Roblox OST - The Main Theme.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite8.png\",\"extension\":\".png\"}",
+        "name": "NewSprite8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewSprite9.png\",\"extension\":\".png\"}",
+        "name": "NewSprite9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "NewSprite10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/bacon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bacon",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "evilbacon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "evilbacon.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "../My project2/assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\My project2\\assets\\NewSprite9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "evilroblox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "evilroblox.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "evilbacondamage.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "evilbacondamage.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "evilrobloxdamage;png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "evilrobloxdamage;png.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/racingicons.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "racingicons",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/playericon_losing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "playericon_losing",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/racingicons3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "racingicons3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/iconevil_losing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "iconevil_losing",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/iconbacon_normal.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "iconbacon_normal",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/iconbacon_losing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "iconbacon_losing",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "racingicons7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "racingicons7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "oof.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "oof.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "oof_reverse.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "oof_reverse.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "player_head.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_head.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player_torso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_torso.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player_arm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_arm.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player_leg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player_leg.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_arm.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_arm",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sword.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sword.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "grassblocks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grassblocks.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cutscene1_full.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "cutscene1_full.mp4",
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Variable",
+      "type": "string",
+      "value": "1"
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "cutscene_95start",
+      "name": "cutscene_start",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.34313725490196134,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 802,
+          "layer": "",
+          "name": "NewVideo",
+          "persistentUuid": "3107c233-7cc4-4821-bddf-8f138347d7ff",
+          "width": 1200,
+          "x": 0,
+          "y": -1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "NewVideo",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": "cutscene1_full.mp4"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewVideo"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "NewVideo"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "NewVideo"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PrioritizeLoadingOfScene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Roblox OST - The Main Theme.mp3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopUp::Alert"
+              },
+              "parameters": [
+                "",
+                "\"This project is unfinished and kinda empty. It's purely made for fun. so don't expect too much\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "NewVideo"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 218,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 185,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 219,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.20902556228335847,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Variable",
+          "type": "string",
+          "value": "oi"
+        },
+        {
+          "name": "damagesword",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "swordreload",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "deadplayer",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 116,
+          "layer": "",
+          "name": "evilroblox",
+          "persistentUuid": "58fdda95-521c-4531-a3c0-5e739ec0ab04",
+          "width": 80,
+          "x": 631,
+          "y": 379,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 355,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "8fca85c6-68d0-4465-851c-9d145cac34d9",
+          "width": 773,
+          "x": -40,
+          "y": 508,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 116,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player",
+          "persistentUuid": "5b046f9e-2508-4aa7-8120-60184c007c8f",
+          "width": 80,
+          "x": 268,
+          "y": 388,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 57,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite4",
+          "persistentUuid": "b4eec361-7cb8-48f5-ab08-8c98387cf3fc",
+          "width": 0,
+          "x": 340,
+          "y": 411,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "a9f556a0-1ed4-4bba-b8df-0dbb6678fbe5",
+          "width": 171,
+          "x": 815,
+          "y": 509,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "e16a25da-23cf-47f4-8097-f30a801bae32",
+          "width": 171,
+          "x": 1117,
+          "y": 380,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "83a3128a-adc4-4521-85aa-2956fa2651fa",
+          "width": 171,
+          "x": 1397,
+          "y": 264,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "bb3f0446-1709-4558-a38e-de03c3aab872",
+          "width": 171,
+          "x": 1624,
+          "y": 439,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "NewSprite5",
+          "opacity": 0,
+          "persistentUuid": "af315195-fd65-409d-b3e8-189ff6b9b659",
+          "width": 16282,
+          "x": -3476,
+          "y": 1534,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "2a668083-e5f9-43d0-8761-a2ff8a3ae6db",
+          "width": 222,
+          "x": 281,
+          "y": 356,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 68,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "974037dd-0ee3-4094-ba05-e3a54235a57d",
+          "width": 275,
+          "x": 1899,
+          "y": 570,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "layer": "",
+          "name": "baconhair",
+          "persistentUuid": "0f3a8a15-5257-4303-9a6d-efff037f2599",
+          "width": 121,
+          "x": -2,
+          "y": 360,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite7",
+          "persistentUuid": "a066421d-176b-48c6-b298-34cc41d6451e",
+          "width": 0,
+          "x": 80625,
+          "y": 551,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "8729ad8d-2bac-4331-b588-d69f97bc52ef",
+          "width": 171,
+          "x": 2820,
+          "y": 548,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "layer": "",
+          "name": "jumpplataforma_",
+          "persistentUuid": "3eedea57-2304-4ecd-852e-287350877002",
+          "width": 155,
+          "x": 2839,
+          "y": 448,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "d8a13434-5e69-44c0-9856-5e9c675d8187",
+          "width": 171,
+          "x": 3014,
+          "y": 325,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "516ccac4-65d8-42fd-93e2-9124bb2b212b",
+          "width": 823,
+          "x": 3262,
+          "y": 231,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 141,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "fdec2e8b-11f0-4ddf-b1dc-d84e3c417552",
+          "width": 695,
+          "x": 2031,
+          "y": 497,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "3640545d-921c-4c78-9598-d3cd0196d174",
+          "width": 0,
+          "x": 3549,
+          "y": 170,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "ef0c418b-ea6b-4f34-a2f9-2a3857bc02cf",
+          "width": 0,
+          "x": 3683,
+          "y": 103,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "4e19ec52-c26d-4c27-8e03-fda371937fd7",
+          "width": 0,
+          "x": 3683,
+          "y": 167,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "d49a8585-32ce-47e5-91f5-46a03a57b000",
+          "width": 64,
+          "x": 3841,
+          "y": 33,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "d808fda5-b8d3-4e82-a6c1-89ac9b7b6a87",
+          "width": 64,
+          "x": 3841,
+          "y": 132,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "layer": "",
+          "name": "jumpplataforma_",
+          "persistentUuid": "5a3d929e-6156-44a5-81db-5348817f8302",
+          "width": 155,
+          "x": 3799,
+          "y": -65,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 322,
+          "keepRatio": true,
+          "layer": "",
+          "name": "floor_green",
+          "persistentUuid": "db1ee66e-2bec-43fc-9bc1-0e2b52f0d2ff",
+          "width": 64,
+          "x": 4022,
+          "y": -90,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "racing_bar",
+          "persistentUuid": "1f50958b-b08f-4d1c-8244-a4192ae5dd5a",
+          "width": 920,
+          "x": 169,
+          "y": 54,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "icon_bacon",
+          "persistentUuid": "9bdc6efc-a4a1-409e-a97d-2e916cc23b7a",
+          "width": 0,
+          "x": 127,
+          "y": 32,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "icon_player",
+          "persistentUuid": "d965f152-e234-4c7d-825e-a02a6a5bad95",
+          "width": 0,
+          "x": 180,
+          "y": 36,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "icon_evil",
+          "persistentUuid": "18d19407-682f-4694-bd36-9c45314b00d6",
+          "width": 0,
+          "x": 241,
+          "y": 40,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_head",
+          "persistentUuid": "c3a0fa51-24c0-494c-ac77-aaf8239bb347",
+          "width": 51,
+          "x": -1815,
+          "y": 343,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_torso",
+          "persistentUuid": "a7216131-c6f5-4ae7-b389-54bb4d3672cc",
+          "width": 47,
+          "x": -1766,
+          "y": 386,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_arm",
+          "persistentUuid": "6fff9200-66ce-4ea1-b522-7dbec1db2f9a",
+          "width": 18,
+          "x": -1710,
+          "y": 319,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_leg",
+          "persistentUuid": "eda37b15-ccc9-4ab0-aea2-49c107e24588",
+          "width": 24,
+          "x": -1686,
+          "y": 434,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "player_leg",
+          "persistentUuid": "c61a1acb-a8ee-4f4c-aebf-4ebbdf0821c9",
+          "width": 24,
+          "x": -1744,
+          "y": 461,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTileMap",
+          "persistentUuid": "5d58a77f-eea9-4516-8773-973de1178466",
+          "width": 0,
+          "x": 311,
+          "y": -311,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "floor_green",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "floor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "evilroblox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": false,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 200,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "robloxdomal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "evilroblox.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "evilrobloxdamage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "evilrobloxdamage;png.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "maxSpeed": 900,
+              "acceleration": 1700,
+              "canGrabPlatforms": false,
+              "canGoDownFromJumpthru": true,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "player",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "player.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0.5,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "sword",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sword.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 1
+                          },
+                          {
+                            "x": 47,
+                            "y": 1
+                          },
+                          {
+                            "x": 47,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 10
+                          },
+                          {
+                            "x": 76,
+                            "y": 10
+                          },
+                          {
+                            "x": 76,
+                            "y": 61
+                          },
+                          {
+                            "x": 4,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "jumpplataforma_",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite9",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 29
+                          },
+                          {
+                            "x": 49,
+                            "y": 29
+                          },
+                          {
+                            "x": 49,
+                            "y": 57
+                          },
+                          {
+                            "x": 10,
+                            "y": 57
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "baconhair",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bacon",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "evilbacon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 33,
+                            "y": 0
+                          },
+                          {
+                            "x": 33,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "evilbacondamage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "evilbacondamage.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 33,
+                            "y": 0
+                          },
+                          {
+                            "x": 33,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "icon_player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "playericon_normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "racingicons",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 8
+                          },
+                          {
+                            "x": 68,
+                            "y": 8
+                          },
+                          {
+                            "x": 68,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "playericon_losing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "playericon_losing",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 8
+                          },
+                          {
+                            "x": 68,
+                            "y": 8
+                          },
+                          {
+                            "x": 68,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "icon_evil",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "iconevil_normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "racingicons3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 75,
+                            "y": 5
+                          },
+                          {
+                            "x": 75,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "iconevil_losing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "iconevil_losing",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5
+                          },
+                          {
+                            "x": 75,
+                            "y": 5
+                          },
+                          {
+                            "x": 75,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "icon_bacon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "iconbacon_normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "iconbacon_normal",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 83,
+                            "y": 0
+                          },
+                          {
+                            "x": 83,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "iconbacon_losing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "iconbacon_losing",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 83,
+                            "y": 0
+                          },
+                          {
+                            "x": 83,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "racing_bar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "bar",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 543,
+                            "y": 3
+                          },
+                          {
+                            "x": 543,
+                            "y": 33
+                          },
+                          {
+                            "x": 1,
+                            "y": 33
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player_head",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 0.5,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0.2,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "player_head",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "player_head.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 0
+                          },
+                          {
+                            "x": 11,
+                            "y": 9
+                          },
+                          {
+                            "x": 1,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player_torso",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0.2,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "player_torso",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "player_torso.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 12,
+                            "y": 11
+                          },
+                          {
+                            "x": 0,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player_arm",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0.2,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "player_arm",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "player_arm",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 0
+                          },
+                          {
+                            "x": 5,
+                            "y": 11
+                          },
+                          {
+                            "x": 0,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player_leg",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0.2,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "player_leg",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "player_leg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 0
+                          },
+                          {
+                            "x": 6,
+                            "y": 9
+                          },
+                          {
+                            "x": 0,
+                            "y": 9
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewTileMap",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "grassblocks.png",
+            "rowCount": 14,
+            "columnCount": 17,
+            "tileSize": 6,
+            "tilesWithHitBox": "119,136,153,170,187,204,221,120,137,154,171,188,205,222,121,138,155,172,189,206,223,122,139,156,173,190,207,224,123,140,157,174,191,208,225,124,141,158,175,192,209,226,125,142,159,176,193,210,0,17,34,51,68,85,102,1,18,35,52,69,86,103,2,19,36,53,70,87,104,3,20,37,54,71,88,105,4,21,38,55,72,89,106,5,22,39,56,73,90,107,6,23,40,57,74,91,108,111,128,145,162,179,112,129,146,163,180,113,130,147,164,181,114,131,148,165,182,132,149,166,183,200,217,234,116,201,218,235,117,202,219,236,118,169,186,203,196,197,199,216,198,214,213,230,232,233,215,231,220,237,185,167,184,168,151,150,133,134,135,152,115"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "floor_green"
+          },
+          {
+            "objectName": "NewTileMap"
+          },
+          {
+            "objectName": "NewSprite8"
+          },
+          {
+            "objectName": "jumpplataforma_"
+          },
+          {
+            "objectName": "evilroblox"
+          },
+          {
+            "objectName": "NewSprite4"
+          },
+          {
+            "objectName": "player"
+          },
+          {
+            "objectName": "player_head"
+          },
+          {
+            "objectName": "player_torso"
+          },
+          {
+            "objectName": "player_arm"
+          },
+          {
+            "objectName": "player_leg"
+          },
+          {
+            "objectName": "baconhair"
+          },
+          {
+            "objectName": "NewSprite5"
+          },
+          {
+            "objectName": "NewSprite7"
+          },
+          {
+            "objectName": "NewSprite6"
+          },
+          {
+            "objectName": "icon_player"
+          },
+          {
+            "objectName": "icon_evil"
+          },
+          {
+            "objectName": "racing_bar"
+          },
+          {
+            "objectName": "icon_bacon"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "começo da cena",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "NewSprite4",
+                "player",
+                "70",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "baconhair",
+                "player",
+                "2",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "evilroblox",
+                "NewSprite7",
+                "2",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::Speed"
+              },
+              "parameters": [
+                "evilroblox",
+                "Pathfinding",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"c\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "evilroblox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"c\""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "baconhair",
+                "Animation",
+                "=",
+                "\"bacon\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "baconhair",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "deadplayer",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "player_head",
+                "player",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "player_torso",
+                "player",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "player_arm",
+                "player",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "player_arm",
+                "player",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "player_leg",
+                "player",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "player_leg",
+                "player",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetBullet"
+              },
+              "parameters": [
+                "player_head",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetBullet"
+              },
+              "parameters": [
+                "player_arm",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetBullet"
+              },
+              "parameters": [
+                "player_head",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetBullet"
+              },
+              "parameters": [
+                "player_torso",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetBullet"
+              },
+              "parameters": [
+                "player_leg",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::SetBullet"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Physics2",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "player",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "icon_player",
+                "Animation",
+                "=",
+                "\"playericon_losing\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "oof.wav",
+                "",
+                "90",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "baconhair",
+                "Animation",
+                "=",
+                "\"evilbacondamage\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "baconhair",
+                "Animation",
+                "=",
+                "\"bacon\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "evilroblox",
+                "floor_green",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "evilroblox",
+                "floor_green",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "evilroblox",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneLoadingProgress"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\"",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Roblox OST - The Main Theme.mp3"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Roblox OST - The Main Theme.mp3",
+                "yes",
+                "50",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "ações",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "z"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "swordreload",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "deadplayer",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "swordreload",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Flippable",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "damagesword",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Flippable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "damagesword",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "swordreload",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "NewSprite4",
+                "player",
+                "70",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "NewSprite4",
+                "player",
+                "-70",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "NewSprite4",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite4",
+                "baconhair",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "damagesword",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "baconhair",
+                "Animation",
+                "=",
+                "\"evilbacondamage\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Rotate"
+              },
+              "parameters": [
+                "baconhair",
+                "4500",
+                "500"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "baconhair",
+                "NewSprite5",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "oof.wav",
+                "",
+                "90",
+                "0.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "icon_bacon",
+                "Animation",
+                "=",
+                "\"iconbacon_losing\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "icon_bacon",
+                "Animation",
+                "=",
+                "\"iconbacon_normal\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite4",
+                "evilroblox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "damagesword",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "evilroblox"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "evilroblox",
+                "Animation",
+                "=",
+                "\"evilrobloxdamage\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "icon_evil",
+                "Animation",
+                "=",
+                "\"iconevil_losing\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "evilroblox",
+                "-20",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "oof_reverse.ogg",
+                "",
+                "90",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "evilroblox",
+                "Animation",
+                "=",
+                "\"robloxdomal\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "icon_evil",
+                "Animation",
+                "=",
+                "\"iconevil_normal\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "NewSprite5",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Untitled scene\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsObjectOnGivenFloor"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "jumpplataforma_",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "=",
+                "400"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "=",
+                "400"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "=",
+                "1000"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "icons",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "icon_player",
+                "0",
+                "10",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "player",
+                "PlatformerObject",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "icon_player",
+                "0",
+                "-10",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SeDirige"
+              },
+              "parameters": [
+                "evilroblox",
+                "NewSprite7",
+                "1",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "icon_evil",
+                "0",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Arret"
+              },
+              "parameters": [
+                "evilroblox"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "icon_evil",
+                "-20",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SeDirige"
+              },
+              "parameters": [
+                "baconhair",
+                "NewSprite7",
+                "1",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "icon_bacon",
+                "0",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "death collision",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player_arm",
+                "floor_green",
+                "floor_green",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "player_arm",
+                "floor_green",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player_head",
+                "floor_green",
+                "floor_green",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "player_head",
+                "floor_green",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player_leg",
+                "floor_green",
+                "floor_green",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "player_leg",
+                "floor_green",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player_torso",
+                "floor_green",
+                "floor_green",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "player_torso",
+                "floor_green",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NewSprite4",
+                "floor_green",
+                "floor_green",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "NewSprite4",
+                "floor_green",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "User interface",
+      "extensionNamespace": "",
+      "fullName": "Pop-up",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1lc3NhZ2UtYWxlcnQiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTMgMTFIMTFWNUgxM00xMyAxNUgxMVYxM0gxM00yMCAySDRDMi45IDIgMiAyLjkgMiA0VjIyTDYgMThIMjBDMjEuMSAxOCAyMiAxNy4xIDIyIDE2VjRDMjIgMi45IDIxLjEgMiAyMCAyWiIgLz48L3N2Zz4=",
+      "name": "PopUp",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/message-alert.svg",
+      "shortDescription": "Display pop-ups to alert, ask confirmation, and let user type a response in text box.",
+      "version": "1.0.0",
+      "description": [
+        "This extension adds actions to display three kinds of pop-ups.",
+        "",
+        "## Alert",
+        " - Pops-up a message that will pause the game until dismissed by the player.",
+        "",
+        "## Confirmation",
+        " - Pops-up a dialogue containing a message with the option to either confirm or cancel.",
+        "",
+        "## Prompt",
+        "**Note that this pop-up type is unsupported on previews and PC exports.**",
+        " - Displays a message to the player with a text field to write an answer in. The player will also have the option to either confirm or discard their input.",
+        ""
+      ],
+      "origin": {
+        "identifier": "PopUp",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "pop up",
+        "alert",
+        "message",
+        "prompt",
+        "confirm",
+        "dialog"
+      ],
+      "authorIds": [
+        "HBp2oDKV87gKFbdd1wyV1jRYRC13",
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "The response to a pop-up message is filled.",
+          "fullName": "Existing prompt response",
+          "functionType": "Condition",
+          "name": "PromptValidResponse",
+          "sentence": "Response from the pop-up prompt is filled",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const promptResponse = runtimeScene.getVariables().get(\"__PopUp\").getChild(\"Prompt\").getAsString();",
+                "eventsFunctionContext.returnValue = promptResponse !== \"\";",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the text response by user to prompt.",
+          "fullName": "Response to prompt",
+          "functionType": "StringExpression",
+          "name": "PromptResponse",
+          "sentence": "Open prompt with message : _PARAM1_ with ID: _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext.returnValue = runtimeScene.getVariables().get(\"__PopUp\").getChild(\"Prompt\").getAsString();\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Displays a prompt in a pop-up that prompts the user for input. This action return the text input or the false boolean if canceled.",
+          "fullName": "Prompt",
+          "functionType": "Action",
+          "group": "Web browsers",
+          "name": "Prompt",
+          "sentence": "Open a prompt pop-up box with message: _PARAM1_ (placeholder: _PARAM2_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const message = eventsFunctionContext.getArgument(\"Message\");",
+                "const defaultText = eventsFunctionContext.getArgument(\"DefaultText\");",
+                "",
+                "const response = prompt(message, defaultText);",
+                "runtimeScene",
+                "    .getVariables()",
+                "    .get(\"__PopUp\")",
+                "    .getChild(\"Prompt\")",
+                "    .setString(response || \"\");",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Prompt message",
+              "name": "Message",
+              "type": "string"
+            },
+            {
+              "description": "Input placeholder",
+              "name": "DefaultText",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Ask confirmation of user with a message in a dialog box with an OK button, and a Cancel button.",
+          "fullName": "Confirm",
+          "functionType": "Action",
+          "name": "Confirm",
+          "sentence": "Open a confirmation pop-up box with message: _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const isConfirmed = confirm(eventsFunctionContext.getArgument(\"Message\"));",
+                "runtimeScene",
+                "    .getVariables()",
+                "    .get(\"__PopUp\")",
+                "    .getChild(\"Confirm\")",
+                "    .setBoolean(isConfirmed);",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Confirmation message",
+              "longDescription": "The text to display in the confirm box.",
+              "name": "Message",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a confirmation was accepted.",
+          "fullName": "Pop-up message confirmed",
+          "functionType": "Condition",
+          "name": "ConfimationResponse",
+          "sentence": "Pop-up message is confirmed",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "eventsFunctionContext.returnValue = runtimeScene.getVariables().get(\"__PopUp\").getChild(\"Confirm\").getAsBoolean();\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Displays an alert box with a message and an OK button in a pop-up window.",
+          "fullName": "Alert",
+          "functionType": "Action",
+          "name": "Alert",
+          "sentence": "Open an alert pop-up box with message: _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "alert(eventsFunctionContext.getArgument(\"Message\"));\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Alert message",
+              "name": "Message",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": []
+}
